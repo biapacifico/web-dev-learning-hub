@@ -1,0 +1,91 @@
+body {
+    align-items: center;
+    background-color: #265073;
+    color: #2D2727;
+    display: flex;
+    font-family: ui-sans-serif, "Segoe UI", Helvetica, Arial, sans-serif;
+    height: 97vh;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #ECF4D6;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    height: 500px;
+    width: 1000px;
+}
+
+.menu {
+    background-color: rgba(154, 208, 194, 0.7);
+    border-radius: 20px;
+    color: #434242;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 280px;
+    padding: 11px;
+    margin: 15px;
+}
+
+.tasks {
+    font-size: 20px;
+    margin: 25px 0 0 20px;
+}
+
+#add-tarefa-text {
+    margin: 20px 0 5px 2px;
+}
+
+#to-do-input {
+    border: none;
+    background-color: #ECF4D6;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+#add-button {
+    font-family: ui-sans-serif, "Segoe UI", Helvetica, Arial, sans-serif;
+    border: none;
+    background-color: #ECF4D6;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.buttons-do {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-text {
+    text-align: center;
+}
+
+#do-button {
+    font-family: ui-sans-serif, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    border: none;
+    background-color: #ECF4D6;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.01);
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#acoesText {
+    margin: 40px 0 5px 2px;
+}
+
+#mainText {
+    margin: 25px 0 0 20px;
+}
+
+li {
+    cursor: pointer;
+}

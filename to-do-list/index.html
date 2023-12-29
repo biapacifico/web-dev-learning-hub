@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="css/img/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="menu">
+            <h1 id="menu-text">Menu</h1>
+            <div>
+                <h4 id="add-tarefa-text">Adicionar tarefa:</h4>
+                <input id="to-do-input" type="text">
+                <button id="add-button">Adicionar</button>
+            </div>
+            <div class="buttons-do">
+                <h4 id="acoesText">Ações:</h4>
+                <button id="do-button">Remover tarefa</button>
+                <button id="do-button">Marcar como concluída</button>
+                <button id="do-button">Mover para cima</button>
+                <button id="do-button">Mover para baixo</button>
+                <button id="do-button">Limpar lista</button>
+            </div>
+        </section>
+
+        <section class="to-do-list">
+            <h1 id="mainText">To Do List ✔</h1>
+            <div class="tasks">
+                <ol id="task-list"></ol>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
