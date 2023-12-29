@@ -1,0 +1,41 @@
+body {
+    margin: 10px;
+}
+
+.preferences {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid green;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+
+.paragraph {
+    display: flex;
+}
