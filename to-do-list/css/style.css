@@ -29,13 +29,17 @@ body {
     margin: 15px;
 }
 
+.menu h1 {
+    text-align: center;
+}
+
+.menu h4 {
+    margin: 20px 0 5px 2px;
+}
+
 .tasks {
     font-size: 20px;
     margin: 25px 0 0 20px;
-}
-
-#add-tarefa-text {
-    margin: 20px 0 5px 2px;
 }
 
 #to-do-input {
@@ -45,6 +49,7 @@ body {
     border-radius: 5px;
     height: 25px;
     width: 200px;
+    margin-bottom: 20px;
 }
 
 #add-button {
@@ -62,11 +67,7 @@ body {
     flex-direction: column;
 }
 
-#menu-text {
-    text-align: center;
-}
-
-#do-button {
+.do-button {
     font-family: ui-sans-serif, "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 14px;
     margin: 5px;
@@ -78,11 +79,7 @@ body {
     cursor: pointer;
 }
 
-#acoesText {
-    margin: 40px 0 5px 2px;
-}
-
-#mainText {
+.to-do-list h1 {
     margin: 25px 0 0 20px;
 }
 

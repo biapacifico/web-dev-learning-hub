@@ -1,7 +1,7 @@
 let taskList = document.querySelector('#task-list')
 let taskInput = document.querySelector('#to-do-input')
 let addTaskButton = document.querySelector('#add-button')
-let actionButtons = document.querySelectorAll('#do-button')
+let actionButtons = document.querySelectorAll('.do-button')
 
 //adiciona a tarefa na to do list
 addTaskButton.addEventListener('click', function(){
