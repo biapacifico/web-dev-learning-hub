@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jedi Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="css/img/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-logo" src="css/img/header-logo.png">
+        <h2 id="header-title">Jedi Academy</h2>
+        <form class="login" method="get">
+            <div class="row g-3">
+                <div class="col-auto">
+                    <input class="form-control" id="email" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="col-auto">
+                    <input class="form-control" id="password" type="password" name="password" placeholder="Senha">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-light" id="btn-signIn" type="button">Entrar</button>
+                </div>
+            </div>
+        </form>
+    </header>
+
+    <main class="main-content">
+        <form id="main-form" method="get">
+            <h3>Formulário:</h3>
+            <div class="row g-3 row-space">
+                <div class="col-auto">
+                    <input class="form-control" type="text" name="name" placeholder="Nome">
+                </div>
+                <div class="col-auto">
+                    <input class="form-control" type="text" name="lastname" placeholder="Sobrenome">
+                </div>
+            </div>
+            <div class="row g-3 row-space">
+                <div class="col-auto">
+                    <input class="form-control" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="col-auto">
+                    <select class="form-select" name="lightsaber" id="lightsaber">
+                        <option selected>Sabre de Luz:</option>
+                        <option value="blue">Azul</option>
+                        <option value="green">Verde</option>
+                        <option value="purple">Roxo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row g-3 row-space">
+                <div class="col-auto">
+                    <p>Qual o seu planeta?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="planetname" id="dagobahplanet" value="dagobah">
+                        <label class="form-check-label" for="dagobahplanet">Dagobah</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="planetname" id="mandaloreplanet" value="mandalore">
+                        <label class="form-check-label" for="mandaloreplanet">Mandalore</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="planetname" id="tatooineplanet" value="tatooine">
+                        <label class="form-check-label" for="tatooineplanet">Tatooine</label>
+                    </div>
+                </div>
+                <div class="col-auto learn-jedi">
+                    <p>O que você quer aprender da Jedi Academy?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="learn" id="luta">
+                        <label for="luta">Tecnicas de luta Jedi</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="learn" id="historia">
+                        <label for="historia">História dos Jedi</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="learn" id="naves">
+                        <label for="naves">Pilotar naves</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="comment" id="commentarea" style="height: 100px"></textarea>
+                    <label for="commentarea">Deixe seu comentário</label>
+                  </div>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-dark" type="submit">Enviar</button>
+            </div>
+        </form>
+        <img id="main-image" src="css/img/main-image.png" alt="">
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

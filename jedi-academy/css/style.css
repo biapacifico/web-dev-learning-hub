@@ -1,0 +1,65 @@
+body {
+    font-family: ui-sans-serif, "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: #EEEEEE;
+}
+
+.header {
+    background-color: #166678;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: #EEEEEE;
+}
+
+.header-logo {
+    max-width: 130px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-form {
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0 0;
+}
+
+#main-form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main-image {
+    margin: 20px 10px;
+    height: 450px;
+    width: 450px;
+}
+
+#commentarea {
+    resize: none;
+}
+
+.row-space {
+    margin-bottom: 20px;
+}
+
+.btn-dark {
+    margin-top: 20px;
+}
+
+.learn-jedi {
+    margin-left: 70px;
+}
